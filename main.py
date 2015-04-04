@@ -4,6 +4,9 @@ from matplotlib import dates
 from scipy import stats
 import datetime
 import numpy as np
+import matplotlib
+# Force matplotlib to not use any Xwindows backend.
+matplotlib.use('Agg')
 
 # ############################# Constants ##############################
 beginDate = str2date('2003/07/01')
